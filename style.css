@@ -13,3 +13,19 @@
     color: white;
     background-size: cover;
 }
+.online{
+    position: relative;
+}
+.online::after{
+    content: "";
+    width: 16px;
+    height: 16px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #41db51;
+    position: absolute;
+    top: -2px;
+    right: 0;
+    bottom: 10px;
+
+}
