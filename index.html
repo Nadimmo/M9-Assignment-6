@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReTro</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- daisy ui and tailwind css link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--font-awesome link  -->
+    <script src="https://kit.fontawesome.com/2a178011b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="mx-[20px] lg:mx-[60px] mt-4">
+        <nav class=" flex justify-between">
+            <div>
+                <h1 class="text-3xl font-bold">ReTro</h1>
+            </div>
+            <!-- icon -->
+            <div class="flex gap-6">
+                <div class="flex gap-2 lg:gap-6 mt-3 grid grid-cols-4 lg:grid-cols-4">
+                    <p title="Home" class="cursor-pointer"><i class="fa-solid fa-house"></i></p>
+                    <p title="Tooltip" class="cursor-pointer"> <i class="fa-solid fa-pen"></i></p> 
+                    <p title="Add" class="cursor-pointer"><i class="fa-solid fa-user-plus"></i></p>
+                    <p title="Flag" class="cursor-pointer"><i class="fa-brands fa-font-awesome"></i></p>
+                </div>
+                <button class="btn text-white bg-[#797DFC]">Sign up</button>
+            </div>
+        </nav>
+        <br><br>
+        <nav class="bg-nav p-10 lg:p-16 w-[320px] lg:w-auto lg:h-[450px] block lg:flex justify-between">
+            <div>
+                <h1 class="text-xl lg:text-6xl font-bold">Welcome to the <br> <span class="text-[#797DFC]">ReTro</span> Forum</h1>
+                <p class="pt-4">Share your favorite opinion and win and  wp <br> forum coffee mug!</p>
+                <input id="inputText" type="text" placeholder="Search here anything" class="text-black text-xl rounded-2xl mt-5 p-2 w-[100%] lg:w-auto">
+                <button onclick="SearchBtnClick()" class=" btn text-white bg-[#797DFC] border-none rounded-2xl w-[120px] text-xl mt-2 lg:mt-0">Search</button>
+            </div>
+            <div class=" bg-[#FFFFFF] w-[250px] h-[240px] text-black rounded-2xl p-5 mt-6">
+                <div class="pt-6">
+                    <p class="text-xl pt-2">Registered Users <span class="pl-[30px]">01</span> </p>
+                    <p class="text-xl pt-2">Forum <span class="pl-[120px]">05</span></p>
+                    <p class="text-xl pt-2">Topics <span class="pl-[123px]">01</span></p>
+                    <p class="text-xl pt-2">Replies <span class="pl-[116px]">01</span></p>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    
+    <!-- javaScript part -->
+    <script src="script.js"></script>
+</body>
+</html>

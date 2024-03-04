@@ -1,0 +1,15 @@
+#bg{
+    background-image: url(images/bgbanner.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    color: white;
+}
+.bg-nav{
+    background-image: url(images/bgbanner.png);
+    background-repeat: no-repeat;
+    background-color: rgb(18, 23, 51);
+    border-radius: 20px;
+    color: white;
+    background-size: cover;
+}
