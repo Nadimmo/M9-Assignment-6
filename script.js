@@ -127,9 +127,9 @@ function SearchBtnClick(){
     loadDataAllPost(inputValue)
 }
 
-const loadding = (isloadding) =>{
+const loadding = (speaner) =>{
     const load = document.getElementById('loading')
-    if(isloadding){
+    if(speaner){
         load.classList.remove('hidden')
     }else{
         load.classList.add('hidden')
