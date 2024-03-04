@@ -6,11 +6,9 @@ const loadDataAllPost = async (search)=>{
     // console.log(posts)
 }
 
-
 // All Posts
 const ShowDisplayPosts = (posts)=>{
     // console.log(posts)
-
 
     posts.forEach((post) =>{
         // console.log(post)
