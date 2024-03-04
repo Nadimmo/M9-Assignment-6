@@ -93,7 +93,6 @@ const ShowlatestPostDisplay = (data) =>{
     }))
 }
 
-
 // Right Side Click and Add Title , View Count
 function ShowDataRightSide(title,view){
 
@@ -142,7 +141,6 @@ function ConvertToNumber(id){
     const convert = parseInt(element.innerText);
     return convert;
 }
-
 
 latestPost()
 loadDataAllPost()
